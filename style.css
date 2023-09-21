@@ -1,7 +1,8 @@
 /*CSS geral do projeto*/
 
 
-body, textarea{
+body,
+textarea {
     margin: 0;
     padding: 0;
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
@@ -13,12 +14,14 @@ body, textarea{
 /*Definição estilo para cabeçalhos, H1, h2, h3*/
 
 
-h1, h2, h3{
+h1,
+h2,
+h3 {
     color: #333;
 }
 
 
-p{
+p {
     color: #70747A;
 }
 
@@ -27,7 +30,7 @@ p{
 
 
 /*Definir o estilo para o container da barra de navegação*/
-.navbar-container{
+.navbar-container {
     width: 100%;
     height: 80px;
     background-color: #232a31;
@@ -39,20 +42,21 @@ p{
 }
 
 
-.logo{
-    width: 100px;/*largura*/
+.logo {
+    width: 100px;
+    /*largura*/
     margin-top: 15px;
 
 
 }
 
 
-nav{
-   position: relative;
+nav {
+    position: relative;
 }
 
 
-.navbar-items{
+.navbar-items {
     list-style: none;
     position: absolute;
     display: inline-block;
@@ -63,14 +67,14 @@ nav{
 }
 
 
-.navbar-items li{
+.navbar-items li {
     display: inline-block;
     text-transform: uppercase;
     margin-left: 25px;
 }
 
 
-.navbar-items li a{
+.navbar-items li a {
     color: #fff;
     text-decoration: none;
 
@@ -78,7 +82,7 @@ nav{
 }
 
 
-.navbar-items li a:hover{
+.navbar-items li a:hover {
     color: #ccc;
 }
 
@@ -86,12 +90,12 @@ nav{
 
 
 /*Main Banner*/
-.main-banner{
+.main-banner {
     width: 100%;
 }
 
 
-.main-banner img{
+.main-banner img {
     width: 100%;
 }
 
@@ -99,12 +103,12 @@ nav{
 /*Especialidades*/
 
 
-.container-especial{
+.container-especial {
     padding: 5px 0;
 }
 
 
-.container-especial ul{
+.container-especial ul {
     display: flex;
     flex-direction: row;
     width: 90%;
@@ -116,30 +120,31 @@ nav{
 
 
 
-.container-especial ul li{
-    flex: 1 1 200px;/*Define o crescimento, encolhimento, largura mínima - flex grow, flex-shrink, largura*/
+.container-especial ul li {
+    flex: 1 1 200px;
+    /*Define o crescimento, encolhimento, largura mínima - flex grow, flex-shrink, largura*/
     list-style: none;
     text-align: center;
     padding: 20px;
 }
 
 
-.container-especial ul li p{
+.container-especial ul li p {
     text-align: justify;
 }
 
 
-.container-especial ul li img{
+.container-especial ul li img {
     width: 50px;
 }
 
 
-.compromisso{
+.compromisso {
     text-align: center;
 }
 
 
-.compromisso h2{
+.compromisso h2 {
     font-size: 36px;
     margin: 20px 0;
     text-align: center;
@@ -149,38 +154,39 @@ nav{
 
 
 
-.compromisso ul{
+.compromisso ul {
     padding: 0;
 }
 
 
-.compromisso h3{
+.compromisso h3 {
     font-size: 24px;
     margin-top: 0;
     text-transform: uppercase;
 }
 
 
-.compromisso p{
+.compromisso p {
     font-size: 20px;
     margin-top: 0;
     color: #000;
     text-align: justify;
-    hyphens: auto;/*hífen*/
+    hyphens: auto;
+    /*hífen*/
 }
 
 
-.compromisso-container{
+.compromisso-container {
     display: flex;
     flex-direction: row;
-    justify-content:  space-between;
+    justify-content: space-between;
     width: 90%;
     margin: auto;
     position: relative;
 }
 
 
-.compromisso-container .compro-title{
+.compromisso-container .compro-title {
     flex: 1 1 200px;
     max-width: 275px;
     margin-left: 20px;
@@ -192,7 +198,7 @@ nav{
 }
 
 
-.contact-container{
+.contact-container {
     text-align: center;
     padding-top: 5em;
     padding-bottom: 2em;
@@ -203,12 +209,12 @@ nav{
 
 
 
-.contact-container h2{
+.contact-container h2 {
     font-size: 36px;
 }
 
 
-.contact-container p{
+.contact-container p {
     font-size: 20px;
     margin-bottom: 40px;
 }
@@ -216,7 +222,8 @@ nav{
 
 
 
-.contact-container input, .contact-container textarea{
+.contact-container input,
+.contact-container textarea {
     width: 200px;
     padding: 10px 20px;
     font-size: 16px;
@@ -228,7 +235,7 @@ nav{
 }
 
 
-.contact-container textarea{
+.contact-container textarea {
     display: block;
     position: relative;
     margin-left: auto;
@@ -238,7 +245,7 @@ nav{
 }
 
 
-.contact-container input[type=submit]{
+.contact-container input[type=submit] {
     display: block;
     position: relative;
     margin-left: auto;
@@ -247,7 +254,7 @@ nav{
 }
 
 
-footer{
+footer {
     text-align: center;
     font-weight: bold;
     margin-bottom: 50px;
@@ -258,8 +265,8 @@ footer{
 
 
 
-@media screen and (max-width: 1100px){
-    .compromisso-container{
+@media screen and (max-width: 1100px) {
+    .compromisso-container {
         width: 95%;
         flex-wrap: wrap;
         margin: 5px;
@@ -267,12 +274,12 @@ footer{
     }
 
 
-    .compro-title{
+    .compro-title {
         margin-bottom: 15px;
     }
 
 
-    .contact-container textarea{
+    .contact-container textarea {
         width: 80%;
     }
 }
@@ -280,8 +287,8 @@ footer{
 
 
 
-@media screen and (max-width: 600px){
-    .container-especial ul{
+@media screen and (max-width: 600px) {
+    .container-especial ul {
         display: flex;
         flex-direction: column;
     }
